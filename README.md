@@ -9,3 +9,7 @@
 * Made the README.md to track the progress of the page
 * Made a small Hero Section 
 * Outlined an About me section
+
+### Version 1.3 - Work Styling
+* Added Work Styling
+* Bare Bones style.css

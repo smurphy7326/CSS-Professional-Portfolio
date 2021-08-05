@@ -80,7 +80,7 @@ nav ul li {
     display:inline-block;
     margin-left: 25px;
     border-bottom: 3px solid #a8cd92;
-    padding: 0 10px;
+    padding: 0px 10px;
     margin: 0px 5px;
 }
 
@@ -128,6 +128,7 @@ header a {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
+    padding-top: 15px;
 }
 
 .herosubtitle { 
@@ -209,9 +210,9 @@ header a {
 }
 
 .work h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    padding: 0 15px 0 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding: 0 15px 0 5px;
     border-right: 4px solid rgba(0, 68, 255, 0.295);
     text-align: right;
 }
@@ -225,7 +226,7 @@ header a {
     width: 900px;
     justify-content: left;
     align-items: flex-end;
-    width: 100%;
+    width: 79%;
     height: auto;
 }
 
@@ -257,17 +258,17 @@ header a {
     left: 20px;
     bottom: 50px;
     padding: 20px 15px 20px 25px;
-    background-color: #92cccd;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 255, 200, 0.733);
+    font-family: 'Times New Roman', Times, serif;
     color: #31343d;
     font-size: 30px;
 }
     
-    .subrunbuddy p {
-        font-size: 15px;
-        font-weight: 500;
-        padding-top: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.subrunbuddy p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Smallerproject Group Styling Begin */
@@ -285,6 +286,7 @@ header a {
 .project-2, .project-4 {
     position: relative;
     margin-top: 10px;
+    margin-right: 10px;
     display: inline-flex;
     height: 200px;
     width: 440px;
@@ -293,15 +295,15 @@ header a {
 
 .project-2 img, .project-4 img {
     display: inline-flex;
-    border: 9px solid #92cccd;
+    border: 9px solid rgba(0, 68, 255, 0.295);
     height: 200px;
     width: 440px;
-    opacity: 65%;
+    opacity: 75%;
     transition: opacity 0.3s, transform 0.3s;
 }
 
 .project-2 a, .project-4 a  {
-    background-color: #92cccd;
+    background-color: rgba(0, 68, 255, 0.295);
     margin-left: 20px;
     height: 200px;
     width: 440px;
@@ -309,7 +311,7 @@ header a {
 
 .project-2 img:hover, .project-4 img:hover  {
     opacity: 100%;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .smallerproject2, .smallerproject4 {
@@ -318,8 +320,8 @@ header a {
     top: 75px;
     left: 20px;
     padding: 20px 15px 10px 25px;
-    background-color: #92cccd;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(169, 181, 216, 0.295);
+    font-family: 'Times New Roman', Times, serif;
     color: #31343d;
     font-size: 25px;
 }
@@ -328,31 +330,31 @@ header a {
     font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 .project-3, .project-5 {
     position: relative;
     margin-top: 10px;
+    margin-left: 10px;
     display: inline-flex;
     height: 200px;
     width: 440px;
     margin-bottom: 10px;
-    padding-left: 20px;
 }
     
 .project-3 img, .project-5 img {
     display: inline-flex;
-    border: 9px solid #92cccd;
+    border: 9px solid rgba(0, 68, 255, 0.295);
     height: 200px;
     width: 440px;
-    opacity: 65%;
+    opacity: 75%;
     transition: opacity 0.3s, transform 0.3s;
  }
     
 .project-3 a, .project-5 a {
-    background-color: #92cccd;
+    background-color: rgba(0, 68, 255, 0.295);
     margin-left: 20px;
     height: 200px;
     width: 440px;
@@ -360,26 +362,26 @@ header a {
     
 .project-3 img:hover, .project-5 img:hover {
     opacity: 100%;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .smallerproject3, .smallerproject5 {
     position: absolute;
     z-index: 9999;
     top: 75px;
-    left: 40px;
+    left: 20px;
     padding: 20px 15px 10px 25px;
-    background-color: #92cccd;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(169, 181, 216, 0.295);
+    font-family: 'Times New Roman', Times, serif;
     color: #31343d;
-    font-size: 30px;
+    font-size: 25px;
 }
     
-.smallerproject3 p, .smallerproject5 {
+.smallerproject3 p, .smallerproject5 p {
     font-size: 15px;
     font-weight: 500;
     padding-top: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Subgroup project styling ends */
@@ -394,16 +396,17 @@ header a {
 
 .column-three {
     margin-right: auto;
+    margin-left: 52px;
     display: inline-flex;
     vertical-align: top;
     position: relative;
 }
 
 .contactme h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150px;
-    padding: 0 15px 0 0px;
-    border-right: 4px solid #31343d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding: 0 15px 0 5px;
+    border-right: 4px solid rgba(0, 68, 255, 0.295);
     text-align: right;
 }
 
@@ -419,21 +422,21 @@ header a {
 
 .links ul { 
     list-style-type: none;
-    font-size: 25px;
+    font-size: 18px;
     display: block;
 }
 
 .links ul li {  
     display: inline-flex;
     margin-right: 60px;
-    border-bottom: 4px solid #92cccd;
+    border-bottom: 4px solid #a8cd92;
     padding: 10px 5px 0px 5px;
 }
 
 
 
 .links ul li a {
-    color: #92cccd;
+    color: #a8cd92;
     font-family: Arial, Helvetica, sans-serif;
 }
 

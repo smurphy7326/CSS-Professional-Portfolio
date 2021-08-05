@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Sean Murphy's Portfolio</title>
 </head>
@@ -14,10 +16,9 @@
         <section class="Title">
             <h1>Sean Murphy</h1>
         </section>
-        <nav>
-            <ul class="nav-effects">" <!-- Header navigation bar -->
+        <nav> <!-- Header navigation bar -->
+                <!-- Anchor Elements -->
                 <li>
-                    <!-- Anchor Elements -->
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
@@ -32,50 +33,78 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Header Ends Here-->
+    
     <!-- Hero Section -->
-    <!-- Hero section will have an image as a background -->
     <section class="hero">
-        <div class ="hero-img">
-            <img src="" class="" alt="name of something for the image to be put in later">
+        <div class ="photo"></div>
+        <div class="herosubtitle">
             <h2>Programmer in Training</h2>
+        </div>
+            <img src="" class="" alt="name of something for the image to be put in later">
         </div>
     </section>
     <!-- Hero Section Ends -->
 
+
     <!-- About Me article Grid -->
-    <article>
+    <section class="bio">
         <!-- About me section -->
-        <div id="About-Me">
+        <section id="About-Me" class="aboutme">
+            <div class="column-one">
             <h3>About Me</h3>
         </div>
-        <div class="about-me-item p1">
-            <p> Things about me</p>
+        <div class="paragraph"></div>
+            <p class="p1"> 
+                My name is Sean Murphy. I am a graduate of the University of Connecticut with a Bachelor of Science
+                degree in Psychology with a minor in Neuroscience. Currently I am working to complete the UCONN Coding Bootcamp.
+                I have a love for photography, and have an interest in consistently learning new and exciting things.
+            </p>
+            <p>
+                I have a strong attention to detail and in the later sections it shows the projects that I have completed 
+                during the first few weeks of the bootcamp. 
+            </p>
         </div>
         <div>
             <p>Things about myself even more</p>
         </div>
     </article>
+    
+<!-- Work Section Start -->
+<section id="work" class="work">
+    <div class ="column-one">
+        <h3>Work</h3>
+    </div>
 
-    <!-- Work Progress Grids -->
-    <article>
-        <div id="work" class="work-wrapper"> <!-- Header nav links come downa dn flex wrapper -->
-            <div class="work-grid-container"> <!-- Work projects container is a grid container -->
-                <div class="work-item work-title"> <!-- Each item is a grid item in this section -->
-                    <p>Work</p>
-                </div>
-                <!-- need more notes -->
-                <div onclick=""
-                    <span class="">
-                        <h3>
-                            
-                        </h3>
-
-                    </span>
-            </div>
+    <section class="flex projects">
+        <!-- Run Buddy is the first and largest project that has been worked on -->
+        <div class="run-buddy">
 
         </div>
-    </article>
+    </section>
+    <div id="run-buddy" class="projects-info">
+        <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="a desk with a notepad deatiling how search engines are optimized">
+        <h2>Run Buddy</h2>
+        <p>
+            The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+        </p>
+    </div>
+    <div id="online-reputation-management" class="services-info">
+        <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="an open laptop on a desk with an image showing how your reputation will rise">
+        <h2>Online Reputation Management</h2>
+        <p>
+            The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+        </p>
+    </div>
+    <div id="social-media-marketing" class="services-info">
+        <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A conference table with images of social media buzzwords">
+        <h2>Social Media Marketing</h2>
+        <p>
+            Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+        </p>
+    </div>
+</main>
+<!-- Services Section Ends -->
 
 
 </body>

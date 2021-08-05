@@ -29,6 +29,11 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    list-style: none;
+}
+
+header h1 {
+    padding-left: 50px;
 }
 
 header nav {
@@ -57,10 +62,18 @@ nav {
 
 header nav ul {
     display: flex;
-    flex-wrap: none;
-    list-style-type: none;
+    flex-wrap: wrap;
+    list-style: none;
     align-items: center;
     font-size: 25px;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    font-size: large;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 nav ul li {
@@ -79,21 +92,42 @@ nav ul li a{
 section {
     padding: 20px 35px;
 }
+
+header a {
+    /* Longer bootom border under the element as mockup */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid #a8cd92;
+    color: #a8cd92;
+}
+
+/* Header nav hover over */
+.nav-effects a:hover{
+    color: #a8cd92;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px #a8cd92;
+}
+
 /* Header/Nav Style Ends */
 
 /* Hero Style Starts*/
 
 /* Styling for Hero Starts Here */
 .hero {
+    height: 300px;
     position: relative;
     background-image: url(../images/sea_edge.jpg);
     background-size:cover;
     background-position:center;
-    background-attachment:static;
+    background-attachment:fixed;
     background-position: 80%;
-    background-color: white;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .herosubtitle { 
@@ -110,20 +144,9 @@ section {
     color: #31343d;
 }
 
-.photo {border: 4px solid #a8cd92;
-    background-image: url(../images/RecentPhoto.jpg);
-    background-size:cover;
-    background-position:center;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 80px;
-
-}
-/* Styling for Hero Starts Here */
-
 /* Hero Style Ends */
 
-/* Styling Biology Starts */
+/* Styling Bio Starts */
 
 .bio {
     width: 100%;
@@ -138,19 +161,22 @@ section {
 
 /* About Me Section Starts*/
 
+
 .aboutme {
     display: flex;
     position: relative;
-    padding: 20px 60px 20px 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .aboutme h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
     padding: 0 15px 0 35px;
-    border-right: 4px rgba(0, 68, 255, 0.295);
+    border-right: 4px solid rgba(0, 68, 255, 0.295);
     text-align: right;
-    display: flex;
+    display: flex
 }
 
 .paragraph {
@@ -158,20 +184,19 @@ section {
     justify-content: left;
 }
 
-.paragraph p {
-    font-size: 20px;
+.paragraph p {font-size: 17px;
     font-weight: 500;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
 }
-
+    
 .paragraph .p1, .p2 {
     padding-left: 20px;
-    grid-column: auto;
+}
+    
+.paragraph .p2 {
+    padding-top: 20px;
 }
 
-.paragraph .p2 {
-    padding-left: 20px;
-}
 /* About me Styling End */
 
 /* Projects Section */
@@ -245,7 +270,7 @@ section {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Subproject Group Styling Begin */
+/* Smallerproject Group Styling Begin */
 
 .smallerprojects {
     position: relative;
@@ -307,53 +332,54 @@ section {
 }
 
 
-.project3 {position: relative;
-        margin-top: 10px;
-        display: inline-flex;
-        height: 200px;
-        width: 440px;
-        margin-bottom: 10px;
-        padding-left: 20px;
+.project-3, .project-5 {
+    position: relative;
+    margin-top: 10px;
+    display: inline-flex;
+    height: 200px;
+    width: 440px;
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
     
-.project3 img {
-        display: inline-flex;
-        border: 9px solid #92cccd;
-        height: 200px;
-        width: 440px;
-        opacity: 65%;
-        transition: opacity 0.3s, transform 0.3s;
+.project-3 img, .project-5 img {
+    display: inline-flex;
+    border: 9px solid #92cccd;
+    height: 200px;
+    width: 440px;
+    opacity: 65%;
+    transition: opacity 0.3s, transform 0.3s;
  }
     
-.project3 a {
-        background-color: #92cccd;
-        margin-left: 20px;
-        height: 200px;
-        width: 440px;
+.project-3 a, .project-5 a {
+    background-color: #92cccd;
+    margin-left: 20px;
+    height: 200px;
+    width: 440px;
 }
     
-.project3 img:hover {
-        opacity: 100%;
-        transition: 0.3s;
+.project-3 img:hover, .project-5 img:hover {
+    opacity: 100%;
+    transition: 0.3s;
 }
 
-.subproject3 {
-        position: absolute;
-        z-index: 9999;
-        top: 75px;
-        left: 40px;
-        padding: 20px 15px 10px 25px;
-        background-color: #92cccd;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #31343d;
-        font-size: 30px;
+.smallerproject3, .smallerproject5 {
+    position: absolute;
+    z-index: 9999;
+    top: 75px;
+    left: 40px;
+    padding: 20px 15px 10px 25px;
+    background-color: #92cccd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #31343d;
+    font-size: 30px;
 }
     
-.subproject3 p {
-        font-size: 15px;
-        font-weight: 500;
-        padding-top: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.smallerproject3 p, .smallerproject5 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Subgroup project styling ends */
@@ -375,7 +401,7 @@ section {
 
 .contactme h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 150px;
     padding: 0 15px 0 0px;
     border-right: 4px solid #31343d;
     text-align: right;
@@ -383,6 +409,7 @@ section {
 
  .links {
     padding-top: 20px;
+    padding-bottom: 20px;
     display: inline-flex;
     justify-content: space-between;
     width: 100%;

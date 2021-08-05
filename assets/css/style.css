@@ -78,12 +78,58 @@ nav ul li a{
 
 /* Header/Nav Style Ends */
 
+/* Hero Style Starts*/
+
+.hero {
+    position: relative;
+    background-image: ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: static;
+    background-position: 80%;
+    background-color:lightslategray;
+    display: flex;
+    justify-content: flex-end;
+}
 
 
+.hero-subtitle { /* Styling to the subtitle the Hero container */
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+/* Hero Style Ends */
+
+/* Styling for Hero Section Starts */
+
+.bio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.column-one {
+    display: inline-flex;
+    vertical-align: top;
+    position: relative;
+}
+
+.aboutme {
+    display: flex;
+    position: relative;
+    padding: 20px 60px 20px 60px;
+}
+
+.aboutme h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 0 15px 0 35px;
+    border-right: 4px rgba(0, 68, 255, 0.295);
+    text-align: right;
+    display: flex;
+}
 
 
+/* Styling for Hero Section Starts */
 
-/* Hero Style Starts */
 
 /* Header Style Ends */
 

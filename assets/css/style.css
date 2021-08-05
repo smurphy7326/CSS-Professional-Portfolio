@@ -257,16 +257,16 @@ section {
     height: auto;
 }
 
-.project2, .project4 {
+.project-2, .project-4 {
     position: relative;
     margin-top: 10px;
     display: inline-flex;
-    height: 210px;
-    width: 450px;
+    height: 200px;
+    width: 440px;
     margin-bottom: 10px;
 }
 
-.project2 img, .project4 img {
+.project-2 img, .project-4 img {
     display: inline-flex;
     border: 9px solid #92cccd;
     height: 200px;
@@ -275,14 +275,14 @@ section {
     transition: opacity 0.3s, transform 0.3s;
 }
 
-.project2 a, .project4 a  {
+.project-2 a, .project-4 a  {
     background-color: #92cccd;
     margin-left: 20px;
     height: 200px;
     width: 440px;
 }
 
-.project2 img:hover, .project4 img:hover  {
+.project-2 img:hover, .project-4 img:hover  {
     opacity: 100%;
     transition: 0.3s;
 }

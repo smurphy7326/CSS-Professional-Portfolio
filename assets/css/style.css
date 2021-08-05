@@ -33,14 +33,14 @@ header {
 
 header nav {
     vertical-align: middle;
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 nav {
     display: flex;
-    height: 35px;
+    height: 40px;
     padding-top: 30px;
-    padding-right: 50px;
+    padding-right: 70px;
     font-size: 25px;
     align-items: center;
 }
@@ -48,9 +48,9 @@ nav {
 .title h1 {
     background-color: #20b233;
     color: rgba(0, 68, 255, 0.295);
-    font-size: 40px;
-    padding: 10px 10px 10px 80px;
-    margin-bottom: 20px;
+    font-size: 45px;
+    padding: 10px 10px 10px 100px;
+    margin-bottom: 15px;
     margin-top: 5px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -60,12 +60,12 @@ header nav ul {
     flex-wrap: none;
     list-style-type: none;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav ul li {
-    display: flex;
-    margin-left: 20px;
+    display: inline-block;
+    margin-left: 25px;
     border-bottom: 3px solid #a8cd92;
     padding: 0 10px;
     margin: 0px 5px;
@@ -76,27 +76,51 @@ nav ul li a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+section {
+    padding: 20px 35px;
+}
 /* Header/Nav Style Ends */
 
 /* Hero Style Starts*/
 
+/* Styling for Hero Starts Here */
 .hero {
     position: relative;
-    background-image: ;
-    background-size: cover;
-    background-position: center;
-    background-attachment: static;
+    background-image: url(../images/sea_edge.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:static;
     background-position: 80%;
-    background-color:lightslategray;
+    background-color: blanchedalmond;
     display: flex;
     justify-content: flex-end;
 }
 
+.herosubtitle { 
+    margin-top: auto;
+    padding: 10px;
+    background-color: #92cccd;
+    position: absolute;
+    bottom: 20px;
+}
 
-.hero-subtitle { /* Styling to the subtitle the Hero container */
-    padding-bottom: 15px;
-    padding-right: 15px;
-  }
+.herosubtitle h2 {
+      font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #31343d;
+}
+
+.photo {border: 4px solid #92cccd;
+    background-image: url(../images/RecentPhoto.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 80px;
+
+}
+/* Styling for Hero Starts Here */
+
 /* Hero Style Ends */
 
 /* Styling for Hero Section Starts */
@@ -127,8 +151,265 @@ nav ul li a{
     display: flex;
 }
 
+.paragraph {
+    display: block;
+    justify-content: left;
+}
 
-/* Styling for Hero Section Starts */
+.paragraph p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.paragraph .p1, .p2 {
+    padding-left: 20px;
+}
+
+.paragraph .p2 {
+    padding-top: 20px;
+}
+/* About me Styling End */
+
+/* Projects Section */
+
+.work {
+    display: flex;
+    position: relative;
+    padding: 20px 0 20px 15px;
+    margin-left: 50px;
+}
+
+.work h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    padding: 0 15px 0 35px;
+    border-right: 4px solid rgba(0, 68, 255, 0.295);
+    text-align: right;
+}
+
+/* Run-buddy Project Styling */
+
+.run-buddy{
+    position: relative;
+    display: inline-flex;
+    height: 500px;
+    width: 900px;
+    justify-content: left;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.run-buddy img {
+    display: inline-flex;
+    border: 9px solid rgba(0, 68, 255, 0.295);
+    height: 500px;
+    width: 900px;
+    vertical-align: middle;
+    opacity: 80%;
+    transition: opacity 0.3s, transform 0.3s;
+    width: 100%;
+    height: auto;
+}
+.run-buddy a {
+    background-color: rgba(0, 68, 255, 0.295);
+    margin-left: 20px;
+    
+}
+
+.run-buddy img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.subrunbuddy {
+    position: absolute;
+    z-index: 9999;
+    left: 20px;
+    bottom: 50px;
+    padding: 20px 15px 20px 25px;
+    background-color: #92cccd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #31343d;
+    font-size: 30px;
+}
+    
+    .subrunbuddy p {
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Subproject Group Styling Begin */
+
+.subprojects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 915px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.project2, .project4 {
+    position: relative;
+    margin-top: 10px;
+    display: inline-flex;
+    height: 210px;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.project2 img, .project4 img {
+    display: inline-flex;
+    border: 9px solid #92cccd;
+    height: 200px;
+    width: 440px;
+    opacity: 65%;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.project2 a, .project4 a  {
+    background-color: #92cccd;
+    margin-left: 20px;
+    height: 200px;
+    width: 440px;
+}
+
+.project2 img:hover, .project4 img:hover  {
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.subproject2, .subproject4 {
+    position: absolute;
+    z-index: 9999;
+    top: 75px;
+    left: 20px;
+    padding: 20px 15px 10px 25px;
+    background-color: #92cccd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #31343d;
+    font-size: 25px;
+}
+
+.subproject2 p, .subproject4 p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.project3 {position: relative;
+        margin-top: 10px;
+        display: inline-flex;
+        height: 200px;
+        width: 440px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+}
+    
+.project3 img {
+        display: inline-flex;
+        border: 9px solid #92cccd;
+        height: 200px;
+        width: 440px;
+        opacity: 65%;
+        transition: opacity 0.3s, transform 0.3s;
+ }
+    
+.project3 a {
+        background-color: #92cccd;
+        margin-left: 20px;
+        height: 200px;
+        width: 440px;
+}
+    
+.project3 img:hover {
+        opacity: 100%;
+        transition: 0.3s;
+}
+
+.subproject3 {
+        position: absolute;
+        z-index: 9999;
+        top: 75px;
+        left: 40px;
+        padding: 20px 15px 10px 25px;
+        background-color: #92cccd;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #31343d;
+        font-size: 30px;
+}
+    
+.subproject3 p {
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Subgroup project styling ends */
+
+/* Contact Me Styling Begins Here */
+
+.contactme{
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+}
+
+.column-three {
+    margin-right: auto;
+    display: inline-flex;
+    vertical-align: top;
+    position: relative;
+}
+
+.contactme h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 0 15px 0 0px;
+    border-right: 4px solid #31343d;
+    text-align: right;
+}
+
+ .links {
+    padding-top: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.links ul { 
+    list-style-type: none;
+    font-size: 25px;
+    display: block;
+}
+
+.links ul li {  
+    display: inline-flex;
+    margin-right: 60px;
+    border-bottom: 4px solid #92cccd;
+    padding: 10px 5px 0px 5px;
+}
+
+
+
+.links ul li a {
+    color: #92cccd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact Me Styling Ends Here */
+
+
 
 
 /* Header Style Ends */

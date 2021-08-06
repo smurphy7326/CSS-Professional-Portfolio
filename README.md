@@ -107,5 +107,5 @@ UCONN Coding Bootcamp asked us to make a portfolio that will be used for the cla
 
 ![image](./assets/images/575px-website-bottom.jpg)
 
-[link](https://smurphy7326.github.io/CSS-Professional-Portfolio/)
+[Portfolio Page](https://smurphy7326.github.io/CSS-Professional-Portfolio/)
 

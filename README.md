@@ -76,7 +76,7 @@
 * Added screenshots in the README
 
 
-![image](./assets/images/Github-pages-working.jpg)
+![image](./assets/images/GitHub-pages-working.jpg)
 
 ![image](./assets/images/Full-size-website-part-1.jpg)
 

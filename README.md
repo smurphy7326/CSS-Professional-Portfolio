@@ -1,4 +1,8 @@
+# UCONN Coding Bootcamp Module Two CSS Professional Portfolio
 
+## Purpose
+
+UCONN Coding Bootcamp asked us to make a portfolio that will be used for the class as well as for future job prospects. WE are to make a portfolio with the projects that we have made so far, with the skills we have learned so far. Adding to this portfolio in the future will allow us to show our progress as well as employers to see the work that we have done and the different techniques we have learned throughout the bootcamp. 
 
 ### Version 1 - First Commit
 
@@ -75,6 +79,13 @@
 * Added photos to CSS folder
 * Added screenshots in the README
 
+### Version 1.17 - First Picture
+* Adjusted the first picture to make it work
+
+### Version 1.18 - README
+* Updated the top of the READme
+* Added a link to the deployed application
+
 
 ![image](./assets/images/GitHub-pages-working.jpg)
 
@@ -95,3 +106,6 @@
 ![image](./assets/images/575px-website-middle.jpg)
 
 ![image](./assets/images/575px-website-bottom.jpg)
+
+[link](https://smurphy7326.github.io/CSS-Professional-Portfolio/)
+
